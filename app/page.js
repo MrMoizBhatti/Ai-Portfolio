@@ -6,7 +6,8 @@ import BlogSection from "./blog/components/BlogSection";
 import ProjectsSection from "./projects/components/ProjectsSection";
 import ResearchSection from "./research/components/ResearchSection";
 import ContactSection from "./contact/components/ContactSection";
-// import ResumeSection from "./resume/components/ResumeSection";
+import ResumeSection from "./resume/components/ResumeSection";
+import MembersSection from "./members/components/MembersSection";
 
 export default function Home() {
   return (
@@ -16,8 +17,10 @@ export default function Home() {
     <ResearchSection />
     <ProjectsSection />
     <BlogSection />
+    <MembersSection />
     <ContactSection />
-    {/* <ResumeSection /> */}
+    <ResumeSection />
    </div>
-  );
+ 
+);
 }

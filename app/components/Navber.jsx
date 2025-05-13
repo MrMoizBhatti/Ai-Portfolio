@@ -58,6 +58,7 @@ const Navbar = () => {
     { href: '#research', label: 'Research' },
     { href: '#projects', label: 'Projects' },
     { href: '#blog', label: 'Blog' },
+    { href: '#members', label: 'Members'},
     { href: '#contact', label: 'Contact' },
   ];
 
